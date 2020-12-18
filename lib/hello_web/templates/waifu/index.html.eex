@@ -1,0 +1,4 @@
+<div class="phx-hero">
+  <h2>Selected Best Waifu: <%= @waifu %></h2>
+  <h2>Best Waifus: <%= @list %></h2>
+</div>
