@@ -15,6 +15,7 @@ defmodule HelloWeb.Plugs.Waifu do
   def call(conn, default) do
     conn
     |> assign(:list, Enum.join(@bestwaifus, ", "))
+    |> assign(:waifusArray, @bestwaifus)
     |> assign(:waifu, default)
   end
 end

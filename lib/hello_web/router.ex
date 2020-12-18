@@ -27,6 +27,7 @@ defmodule HelloWeb.Router do
 
     get "/v1/lol/", LolController, :invalid
     get "/v1/lol/:lmao", LolController, :index
+    get "/v1/waifus", WaifuController, :api_waifus
   end
 
   # Other scopes may use custom stacks.
